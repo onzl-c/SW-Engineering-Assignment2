@@ -2,6 +2,8 @@
 소프트웨어 공학 과제2 개인 프로젝트입니다.
 
 ---
+개인코드: 74598
+개인용 github 주소: https://github.com/onzl-c/SW-Engineering-Assignment2
 
 ### 1. Requirement List
 

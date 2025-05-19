@@ -1,0 +1,12 @@
+[eunji] Mon May 19 23:03:45 2025 +0900 upload analysis class diagram 1ab8e1e
+[eunji] Mon May 19 23:02:50 2025 +0900 update communication diagram fea5bcc
+[eunji] Mon May 19 21:53:37 2025 +0900 add communication diagram 91d9b91
+[eunji] Mon May 19 17:17:38 2025 +0900 remove system response starter a802fa7
+[eunji] Mon May 19 17:16:11 2025 +0900 system response detail b4cb87f
+[eunji] Mon May 19 16:00:58 2025 +0900 not start with system response 250d678
+[eunji] Mon May 19 15:58:33 2025 +0900 change system response start b1e67ea
+[eunji] Mon May 19 15:56:58 2025 +0900 system response start(pre) 020c106
+[eunji] Mon May 19 13:47:22 2025 +0900 add use case diagram f103a4c
+[eunji] Sun May 18 22:48:02 2025 +0900 changed requirement list 1730136
+[eunji] Sun May 18 22:42:03 2025 +0900 requirement list in readme.md 7cbb1e9
+[eunji] Sun May 18 22:20:57 2025 +0900 Create README.md 77cd6d3
