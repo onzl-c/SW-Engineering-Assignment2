@@ -1,3 +1,6 @@
+[eunji] Mon May 19 23:12:47 2025 +0900 add use case description pdf file 54fe35e
+[eunji] Mon May 19 23:10:42 2025 +0900 add requirement list pdf file 2a14188
+[eunji] Mon May 19 23:09:31 2025 +0900 add code and url 1ce90c6
 [eunji] Mon May 19 23:03:45 2025 +0900 upload analysis class diagram 1ab8e1e
 [eunji] Mon May 19 23:02:50 2025 +0900 update communication diagram fea5bcc
 [eunji] Mon May 19 21:53:37 2025 +0900 add communication diagram 91d9b91
