@@ -33,7 +33,7 @@ int main() {
     out_fp.open(OUTPUT_FILE_NAME);
 
     vector<Account> accounts;
-    accounts.emplace_back("admin", "admin", "00000000000");  // admin 계정 추가
+    accounts.emplace_back("admin", "admin", "00000000000");  // admin 계정 추가(hard coding)
 
     vector<Bike> bikes;
     Account* currentUser = nullptr;
@@ -61,7 +61,7 @@ void doTask(vector<Account>& accounts, vector<Bike>& bikes, Account*& currentUse
 
                         SignUp signup(accounts);
                         SignUpUI signupUI;
-                        signupUI.createNewAccount(signup, id, pw, phone);  // 1. createNewAccount()
+                        signupUI.createNewAccount(signup, id, pw, phone); 
 
                         break;
                     }
@@ -77,7 +77,7 @@ void doTask(vector<Account>& accounts, vector<Bike>& bikes, Account*& currentUse
 
                         Login login(accounts);
                         LoginUI loginUI;
-                        currentUser = loginUI.requestLogin(login, id, pw);  // 1. requestLogin()
+                        currentUser = loginUI.requestLogin(login, id, pw); 
                         
                         break;
                     }
@@ -86,7 +86,7 @@ void doTask(vector<Account>& accounts, vector<Bike>& bikes, Account*& currentUse
 
                         Logout logout;
                         LogoutUI logoutUI;
-                        logoutUI.requestLogout(logout, currentUser);  // 1. requestLogout()
+                        logoutUI.requestLogout(logout, currentUser); 
                         
                         break;
                     }
@@ -102,7 +102,7 @@ void doTask(vector<Account>& accounts, vector<Bike>& bikes, Account*& currentUse
 
                         RegisterBike reg(bikes);
                         RegistBikeUI regUI;
-                        regUI.requestBike(reg, bikeId, bikeName);  // 1. requestBike()
+                        regUI.requestBike(reg, bikeId, bikeName);  
                         
                         break;
                     }
@@ -118,7 +118,7 @@ void doTask(vector<Account>& accounts, vector<Bike>& bikes, Account*& currentUse
 
                         RentBike rent(bikes);
                         RentBikeUI rentUI;
-                        rentUI.selectBike(rent, currentUser, bikeId);  // 1. selectBike()
+                        rentUI.selectBike(rent, currentUser, bikeId); 
                         
                         break;
                     }
@@ -131,7 +131,7 @@ void doTask(vector<Account>& accounts, vector<Bike>& bikes, Account*& currentUse
                         
                         RentalBikeInfo info;
                         RentalBikeInfoUI infoUI;
-                        infoUI.requestRentalBikeInfo(info, currentUser);  // 1. requestRentalBikeInfo()
+                        infoUI.requestRentalBikeInfo(info, currentUser); 
 
                         break;
                     }
@@ -143,7 +143,7 @@ void doTask(vector<Account>& accounts, vector<Bike>& bikes, Account*& currentUse
                         out_fp << "6.1. 종료";
 
                         is_program_exit = true;
-                        
+
                         break;
                     }
                 }

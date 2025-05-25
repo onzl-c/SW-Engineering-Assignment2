@@ -2,7 +2,13 @@
 
 Bike::Bike(string id, string name) : id(id), name(name), rented(false) {}
 
-void Bike::updateStatus(bool isRented) { rented = isRented; }
+string Bike::getId() { return id; }
+
+string Bike::getName() { return name; }
+
+void Bike::updateStatus(bool isRented) {
+    rented = isRented;
+}
 
 bool Bike::isRented() { return rented; }
 

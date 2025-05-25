@@ -1,19 +1,18 @@
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
 #include <string>
-#include <vector>
-#include <fstream>
-#include "Bike.h"
-
+#include "BikeCollection.h"
 using namespace std;
-extern ofstream out_fp;
+#include <fstream>
+
+extern std::ofstream out_fp;
 
 class Account {
 private:
     string id;
     string password;
     string phone_num;
-    vector<Bike> rentalBikes;
+    BikeCollection rentalBikeCollection;
 public:
     Account(string id, string pw, string phone);
     string getId();
