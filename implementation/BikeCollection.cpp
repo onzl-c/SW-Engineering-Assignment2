@@ -10,4 +10,5 @@ void BikeCollection::listAll() {
     for (auto& bike : bikes) {
         out_fp << bike.getRentalBikeInfo();
     }
+    out_fp << endl;
 }
